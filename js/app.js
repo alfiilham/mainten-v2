@@ -75,7 +75,7 @@ function App() {
         //if form is valid
         if($(this).valid()) {
             //save email in newsletter file
-            $.post("php/newsletter.php", {
+            $.post("Your PHP file link here", {
                 email:   $("input#email").val()
             }, function(data) {
                  //if everything is ok, close dialog and show message
